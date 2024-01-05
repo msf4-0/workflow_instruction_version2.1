@@ -1,0 +1,16 @@
+CREATE DATABASE wi;
+use wi;
+
+CREATE TABLE users (username VARCHAR(150) NOT NULL, name VARCHAR(150) NOT NULL, password VARCHAR(150) NOT NULL, PRIMARY KEY (username));
+INSERT INTO users ( username, name, password) VALUES ( 'admin', 'Richard', '$2b$12$ctzAsjLvYJakOS9prOiKue7VhIeW5JH.5/JqVv.Z2yFZcSQqYtsAO' ), 
+( 'instructor', 'wasi', '$2b$12$rHIuUwRVejmnEBobBErvOOj6IIY/HJWYQCg/Bh0dDXWWTf2pJrgVW' ), 
+( 'operator', 'Alfred', '$2b$12$JdKdt4R/o2NsIYZ6VUarae4tyd.7wucyXErsH8Hsg5mMQM2kX30N6' );
+
+CREATE TABLE access (start_date VARCHAR(150) NOT NULL, start_time VARCHAR(150) NOT NULL, end_date VARCHAR(150) NOT NULL, end_time VARCHAR(150) NOT NULL);
+INSERT INTO access ( start_date, start_time, end_date, end_time) VALUES ( '11/11/2022', '09:00:00', '$11/11/2023', '18:00:00' );
+
+CREATE TABLE broker (server VARCHAR(150) NOT NULL, port VARCHAR(150) NOT NULL, topic VARCHAR(150) NOT NULL);
+INSERT INTO broker ( server, port, topic) VALUES ( 'broker.emqx.io', '1883', 'button1/station1');
+
+CREATE TABLE station (id VARCHAR(100) NOT NULL);
+INSERT INTO station (id) VALUES ( '1');
