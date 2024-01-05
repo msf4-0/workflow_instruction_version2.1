@@ -19,7 +19,7 @@ pip install -r requirements.txt
 [mysql]
 host = "localhost"
 port = 3306
-database = "xxx"
+database = "wi"
 user = "xxx"
 password = "xxx"
 ```  
