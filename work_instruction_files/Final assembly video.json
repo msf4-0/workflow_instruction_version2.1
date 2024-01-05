@@ -1,0 +1,15 @@
+{
+  "wi_name": "Final assembly video",
+  "wi_desc": "Video for final assembly",
+  "wi_id": "383",
+  "wi_stid": "5",
+  "wi_steps": [
+    {
+      "step_name": "Step 1",
+      "step_desc": "https://drive.google.com/file/d/12nvEXEFgJekFGqA25W069AmJPmJcky2s/view?usp=sharing",
+      "step_visual": [],
+      "step_inputs": [],
+      "step_inputs_no": 0
+    }
+  ]
+}

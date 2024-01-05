@@ -1,0 +1,15 @@
+{
+  "wi_name": "Control assembly video",
+  "wi_desc": "Video recording for control assembly",
+  "wi_id": "383",
+  "wi_stid": "2",
+  "wi_steps": [
+    {
+      "step_name": "Step 1",
+      "step_desc": "https://drive.google.com/file/d/1Mel01coFhuiuHB6S7UMfiLTXTaZk1RaM/view?usp=sharing",
+      "step_visual": [],
+      "step_inputs": [],
+      "step_inputs_no": 0
+    }
+  ]
+}
