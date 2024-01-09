@@ -12,7 +12,7 @@ Streamlit-based tools to create, edit and deploy step-by-step multimedia work in
 pip install -r requirements.txt
 ```  
 7. Add username and password to your local app secrets  
-  Your local Streamlit app will read secrets from a file .streamlit/secrets.toml in your app's root directory. Create this file if it doesn't exist yet and add the database name, user, and password of your MySQL server as shown below:  
+  Your local Streamlit app will read secrets from a file .streamlit/secrets.toml in your app's root directory. Create this file if it doesn't exist yet and add the user, and password of your MySQL server as shown below:  
   ```console 
 #.streamlit/secrets.toml
 
