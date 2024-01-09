@@ -1,0 +1,15 @@
+{
+  "wi_name": "Sub disassembly video",
+  "wi_desc": "Video recording for wheel disassembly and rack disassembly",
+  "wi_id": "383",
+  "wi_stid": "1",
+  "wi_steps": [
+    {
+      "step_name": "Step 1",
+      "step_desc": "https://drive.google.com/file/d/1_60QaQF1LtmIZ5qV1y4P_W4XMuEIb5dY/view?usp=sharing",
+      "step_visual": [],
+      "step_inputs": [],
+      "step_inputs_no": 0
+    }
+  ]
+}
