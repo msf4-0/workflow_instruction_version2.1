@@ -5,13 +5,14 @@ Streamlit-based tools to create, edit and deploy step-by-step multimedia work in
 1. [Install Python](https://www.python.org/downloads/) (Install or update to 3.12.1 or higher)
 2. [Install MySQL](https://dev.mysql.com/downloads/installer/) (Take the 8.0.35 version or higher, do not download the web version, install the full version)
 3. [Install PIP](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) (If pip is not found you need to go to the link, note that if you have downloaded Python 2.7. 9+ and Python 3.4+ you will have pip)
-4. Download the Work Instruction folder 
-5. Open your terminal and navigate to the downloaded folder
-6. Install all the App dependencies  
+4. If Python or MySQL is not found in the command prompt you will need to add path to the system environment. (https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14))
+5. Download the Work Instruction folder 
+6. Open your terminal and navigate to the downloaded folder
+7. Install all the App dependencies  
 ```console 
 pip install -r requirements.txt
 ```  
-7. Add username and password to your local app secrets  
+8. Add username and password to your local app secrets  
   Your local Streamlit app will read secrets from a file .streamlit/secrets.toml in your app's root directory. Create this file if it doesn't exist yet and add the user, and password of your MySQL server as shown below:  
   ```console 
 #.streamlit/secrets.toml
@@ -24,11 +25,11 @@ user = "xxx"
 password = "xxx"
 ```  
 
-8. Create the required Database and Tables  
+9. Create the required Database and Tables  
 ```console 
 mysql -u root -p < database.txt
 ```  
-9. Run the App  
+10. Run the App  
 ```console 
 streamlit run work_instruction_creator.py
 ```  
