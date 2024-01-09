@@ -2,7 +2,7 @@
 Streamlit-based tools to create, edit and deploy step-by-step multimedia work instruction documents for the process line.
 
 ## implementation guide
-1. [Install Python](https://www.python.org/downloads/) (Install or update to the newest version would be preferred)
+1. [Install Python](https://www.python.org/downloads/) (Install or update to 3.12.1 or higher)
 2. [Install MySQL](https://dev.mysql.com/downloads/installer/) (Take the newest version, do not download the web version, install the full version)
 3. [Install PIP](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) If you don't have PIP
 4. Download the Work Instruction folder 
