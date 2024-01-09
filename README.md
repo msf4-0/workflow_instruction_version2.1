@@ -4,7 +4,7 @@ Streamlit-based tools to create, edit and deploy step-by-step multimedia work in
 ## implementation guide
 1. [Install Python](https://www.python.org/downloads/) (Install or update to 3.12.1 or higher)
 2. [Install MySQL](https://dev.mysql.com/downloads/installer/) (Take the newest version, do not download the web version, install the full version)
-3. [Install PIP](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) If you don't have PIP
+3. [Install PIP](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) (If pip is not found, but if you have downloaded Python 2.7. 9+ and Python 3.4+)
 4. Download the Work Instruction folder 
 5. Open your terminal and navigate to the downloaded folder
 6. Install all the App dependencies  
