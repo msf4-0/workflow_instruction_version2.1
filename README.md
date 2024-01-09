@@ -8,7 +8,7 @@ Streamlit-based tools to create, edit and deploy step-by-step multimedia work in
 4. If Python or MySQL is not found in the command prompt you will need to add path to the system environment. [Youtube](https://www.youtube.com/watch?v=Y2q_b4ugPWk) (https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)) 
 5. Download the Work Instruction folder 
 6. Open your terminal and navigate to the downloaded folder
-7. Install all the App dependencies (If there is an error when trying to install that means that there is a newer version of App dependencies download the newest one)
+7. Install all the App dependencies (If there is an error when trying to install that means that there is a newer version of App dependencies, download the newest one)
 ```console 
 pip install -r requirements.txt
 ```  
