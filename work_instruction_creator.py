@@ -400,7 +400,7 @@ if authentication_status:
 					x1 = xk[0]; x2 = xk[1]; x3 = xk[2]; x4 = xk[3]
 				sd = datetime.datetime.strptime(x1, "%m/%d/%Y").date()
 				stt = datetime.datetime.strptime(x2, "%H:%M:%S").time()
-				ed = datetime.datetime.strptime(x3, "$%m/%d/%Y").date()
+				ed = datetime.datetime.strptime(x3, "%m/%d/%Y").date()
 				et = datetime.datetime.strptime(x4, "%H:%M:%S").time()
 				at = datetime.datetime.now().time()
 				ad = datetime.date.today()
@@ -441,7 +441,7 @@ if authentication_status:
 				x1 = xk[0]; x2 = xk[1]; x3 = xk[2]; x4 = xk[3]
 			sd = datetime.datetime.strptime(x1, "%m/%d/%Y").date()
 			stt = datetime.datetime.strptime(x2, "%H:%M:%S").time()
-			ed = datetime.datetime.strptime(x3, "$%m/%d/%Y").date()
+			ed = datetime.datetime.strptime(x3, "%m/%d/%Y").date()
 			et = datetime.datetime.strptime(x4, "%H:%M:%S").time()
 			bk = run_query("SELECT * from broker;")
 			for bkk in bk:
