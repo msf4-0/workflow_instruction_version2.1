@@ -5,7 +5,7 @@ Streamlit-based tools to create, edit and deploy step-by-step multimedia work in
 1. [Install Python](https://www.python.org/downloads/) (Install or update to 3.12.1 or higher)
 2. [Install MySQL](https://dev.mysql.com/downloads/installer/) (Take the 8.0.35 version or higher, do not download the web version, install the full version)
 3. [Install PIP](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) (If pip is not found you need to go to the link, note that if you have downloaded Python 2.7. 9+ and Python 3.4+ you will have pip)
-4. If Python or MySQL is not found in the command prompt, you must add the path to the system environment. Please follow the YouTube instructions or article to add the path to the cmd so that you can use Python and MySQL in cmd [Youtube](https://www.youtube.com/watch?v=Y2q_b4ugPWk) or [Article](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)) 
+4. If Python or MySQL is not found in the command prompt, you must add the path to the system environment. Please follow the YouTube instructions or article to add the path to the cmd so that you can use Python and MySQL in cmd [Youtube Window 10](https://www.youtube.com/watch?v=Y2q_b4ugPWk) or [Article](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)) [Youtube Window 11](https://www.youtube.com/watch?v=AOQX6LZUaGo)
 5. Download the Work Instruction folder 
 6. Open your terminal and navigate to the downloaded folder (The folder where "work_instruction_creator.py" is)
 7. Install all the App dependencies (If there is an error when trying to install that means that there is a newer version of App dependencies, download the newest one)
