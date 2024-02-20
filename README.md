@@ -25,7 +25,7 @@ user = "xxx"
 password = "xxx"
 ```  
 
-9. Create the required Database and Tables, Access in the database.txt directory  
+9. Create the required Database and Tables, In CMD cd to the database.txt directory  
 ```console 
 mysql -u root -p < database.txt
 ```  
