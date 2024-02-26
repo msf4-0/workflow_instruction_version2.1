@@ -29,7 +29,7 @@ password = "xxx"
 ```console 
 mysql -u root -p < database.txt
 ```  
-10. Run the App  
+10. Run the App, to re-run the App, cd to the folder with work_instruction_creator.py in cmd and type the following instructions.
 ```console 
 streamlit run work_instruction_creator.py
 ```  
